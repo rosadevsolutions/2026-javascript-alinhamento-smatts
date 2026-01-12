@@ -9,10 +9,16 @@ Faça o seguinte:
 - Modifique o title para "Exercício 01";
 - E linke este arquivo, app.js, antes do fechamento da tag body.
 */
+//Feito
+
+
 
 /*
 02 - Inicie o seu servidor local e abra o console do browser.
 */
+// Feito
+
+
 
 /*
 03 - Para certificar-se que este arquivo realmente está linkado, exiba a frase
@@ -24,31 +30,39 @@ Como mencionei durante a aula: não se preocupe em entender 100% o que os comand
 Utilize os espaços entre os comentários abaixo para executar os códigos dos
 exercícios. Inclusive o alert mencionado acima.
 */
+// Feito
+// alert("JS is Awesome!");
 
 
 
 /*
 04 - Comente o alert que você escreveu acima, utilizando o comentário de uma linha.
 */
+// Feito
+
+
 
 /*
 05 - Declare uma const "myBirthYear", que recebe o ano do seu nascimento, com 4
 dígitos. Ex.: 1930.
 */
+// Feito
+const myBirthYear = 1980;
 
 
 
 /*
 06 - Declare uma const "currentYear", que recebe o ano atual, com 4 dígitos.
 */
-
+// Feito
+const currentYear = 2026;
 
 
 /*
 07 - Exiba as const "myBirthYear" e "currentYear", lado a lado, no console do browser.
 */
-
-
+// Feito
+console.log(myBirthYear, currentYear)
 
 /*
 08 - Experimente.
@@ -61,7 +75,9 @@ acontece.
 
 - Exiba a "myAge" no console.
 */
-
+// Feito
+const myAge = currentYear - myBirthYear;
+//console.log(myAge)
 
 
 /*
@@ -78,22 +94,25 @@ Não se assuste com as crases e os cifrões. Conversaremos mais sobre operaçõe
 matemáticas e strings (textos) em breve =)
 */
 
-// console.log(`Em ${valor1}, estarei com ${valor2} anos.`)
+const ten = 10;
+console.log(`Em ${currentYear + 10}, estarei com ${myAge + 10} anos.`)
 
 /*
+
 10 - Abra o site abaixo no browser e faça o seguinte:
 
 http://whathappenedinmybirthyear.com/
 
 - Abra o console do devtools;
 - Provavelmente, haverão alguns warnings nele. Pressione ctrl + L para limpá-lo;
-- No console do devtools, declare uma const "myBirthYear" que recebe o ano em que  
+- No console do devtools, declare uma const "myBirthYear" que recebe o ano em que
 você nasceu (4 dígitos) e pressione enter;
-- No final da 1ª linha do código abaixo, substitua SEU_ANO_DE_NASCIMENTO pelo uso  
+- No final da 1ª linha do código abaixo, substitua SEU_ANO_DE_NASCIMENTO pelo uso
 da const myBirthYear;
-- Cole as duas linhas de código no console, pressione enter, feche o console e  
+- Cole as duas linhas de código no console, pressione enter, feche o console e
 veja o que acontece.
 
 document.querySelector('#birthYear').value = SEU_ANO_DE_NASCIMENTO
 document.querySelector('.formButton').click()
 */
+//O browser evibe uma contagem regressiva que decresce do ano atual até o ano definido como valor para myBithYear e passar a exibir os fatos importantes do ano definido na variavel myBithYear.
