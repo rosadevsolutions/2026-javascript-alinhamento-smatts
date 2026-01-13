@@ -235,15 +235,25 @@ console.log(bookMessage)
 */
 
 const characterName = 'walter white';
-let newName = characterName.split()
-console.log(newName)
+let newName = characterName
+  .split(' ')
+  .map(palavra => palavra.charAt(0).toUpperCase() + palavra.slice(1))
+  .join(' ');
+
+// console.log(newName)
 
 /*
-22 - Comente o console.log acima, e,
-
-- Atribua à "newName" uma template string;
+22
+- Comentar o console.log acima, e,
+- Atribuir uma template string à "newName" ;
 - A template string deverá resultar no mesmo valor que a "newName" tinha anteriormente (nome e sobrenome com letras iniciais maiúsculas);
-- Não digite a nova string manualmente.
-- Não modifique a string da const "characterName";
-- Exiba a "newName" no console;
+- Não digitar a nova string manualmente.
+- Não modificar a string da const "characterName";
+- Exibir "newName" no console;
 */
+newName = `${characterName}`
+newName = newName
+  .split(' ')
+  .map(palavra => palavra.charAt(0).toUpperCase() + palavra.slice(1))
+  .join(' ');
+console.log(newName)
