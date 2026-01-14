@@ -1,48 +1,57 @@
 /*
-01 - No index.html deste diretório (exercicio-02):
-
-- Declare uma marcação HTML;
-- Modifique a linguagem para português do Brasil;
-- Remova as meta tags desnecessárias;
-- Modifique o title para "Exercício 02";
-- E linke este arquivo, app.js, antes do fechamento da tag body.
+01
+No index.html deste diretório (exercicio-02):
+- Declarar uma marcação HTML;
+- Modificar a linguagem para português do Brasil;
+- Remover as meta tags desnecessárias;
+- Modificar o title para "Exercício 02";
+- E linkar este arquivo, app.js, antes do fechamento da tag body.
 */
 // Feito
+// ✔️ CERTO
+// ---------------------------------------------
 
 
 
 /*
-02 - Inicie o seu servidor local e abra o console do browser.
+02
+Iniciar seu servidor local e abrir o console do browser.
 */
 // Feito
+// ✔️ CERTO
+// ---------------------------------------------
 
 
 
 /*
-03 - Exiba a string 'Grandes poderes trazem grandes responsabilidades.' no console do browser.
+03
+Exibir a string 'Grandes poderes trazem grandes responsabilidades.' no console do browser.
 
-Utilize os espaços entre os comentários abaixo para executar os códigos dos exercícios. Inclusive este.
+Utilizar os espaços entre os comentários abaixo para executar os códigos dos exercícios. Inclusive este.
 */
 //console.log('Grandes poderes trazem grandes responsabilidades.');
+// ✔️ CERTO
+// ---------------------------------------------
 
 
 
 /*
-04 - Comente o console.log acima, e:
-
-- Armazene a palavra 'Tom' em uma constante "tom";
-- Armazene a palavra 'Hanks' em uma constante "firstTom";
-- Armazene a palavra 'Cruise' em uma constante "secondTom";
-- Declare uma constante "myFavoriteTom" que
+04
+Comentar o console.log acima, e:
+- Armazenar a palavra 'Tom' em uma constante "tom";
+- Armazenar a palavra 'Hanks' em uma constante "firstTom";
+- Armazenar a palavra 'Cruise' em uma constante "secondTom";
+- Declarar uma constante "myFavoriteTom" que
   recebe nome, espaço, e sobrenome do Tom que você mais gosta;
-- Exiba a "myFavoriteTom" no console do browser.
+- Exibir a "myFavoriteTom" no console do browser.
 */
-
 const tom = 'Tom';
 const firstTom = 'Hanks';
 const secondTom = 'Cruise';
 const myFavoriteTom = `${tom} ${secondTom}`;
 //console.log(myFavoriteTom);
+// ✔️ CERTO
+// ---------------------------------------------
 
 
 /*
